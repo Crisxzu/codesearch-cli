@@ -1,0 +1,36 @@
+{
+  "name": "codesearch-cli",
+  "version": "1.0.0",
+  "description": "CLI client for CodeSearch semantic code search",
+  "type": "module",
+  "bin": {
+    "codesearch-cli": "src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["code-search", "semantic-search", "cli", "developer-tools", "search"],
+  "author": "MSDev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/mgrep.git"
+  },
+  "homepage": "https://github.com/your-username/mgrep#readme",
+  "bugs": {
+    "url": "https://github.com/your-username/mgrep/issues"
+  },
+  "files": ["src", "README.md"],
+  "dependencies": {
+    "axios": "^1.7.2",
+    "boxen": "^8.0.1",
+    "chalk": "^5.3.0",
+    "chokidar": "^3.6.0",
+    "cli-highlight": "^2.1.11",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^13.2.0",
+    "picocolors": "^1.0.1"
+  }
+}
